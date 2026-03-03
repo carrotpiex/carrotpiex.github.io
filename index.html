@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laura Ozoria</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Email sidebar -->
+    <div class="email-sidebar">
+        <a href="mailto:your.email@bucknell.edu">l.ozoria@bucknell.edu</a>
+    </div>
+
+    <!-- Social sidebar -->
+    <div class="social-sidebar">
+        <ul class="social-list">
+            <li>
+                <a href="https://github.com/carrotpiex" target="_blank" aria-label="GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://linkedin.com/in/laura-ozoria" target="_blank" aria-label="LinkedIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Main content -->
+    <div id="content">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-logo">LO</div>
+            <ul class="nav-links">
+                <li><a href="#about"> About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#work"><span></span> Projects</a></li>
+                <li><a href="#contact"><span></span> Contact</a></li>
+                <li><a href="Ozoria_Laura.Resume.pdf" class="resume-button" target="_blank">Resume</a></li>
+            </ul>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero-intro">Hi, my name is</h1>
+                <h2 class="hero-title">Laura Ozoria.</h2>
+                <!-- <h3 class="hero-subtitle">I build things that bridge creativity and code.</h3> -->
+                <p class="hero-description">
+                    I'm a software engineer studying Computer Science & Engineering and Film & Media Studies at 
+                    <span class="highlight">Bucknell University</span>. Currently, I'm focused on building accessible web applications 
+                    and tools that make complex technology more intuitive for everyone.
+                </p>
+                <a href="mailto:your.email@bucknell.edu" class="cta-button">Get In Touch</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="numbered-heading"><span></span> About Me</h2>
+                    <div class="heading-line"></div>
+                </div>
+
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            I'm a junior at Bucknell University studying Computer Science & Engineering and Film & Media Studies. The combination reflects what I value in software engineering: technical excellence, creative problem-solving, and thoughtful design. I'm particularly passionate about digital accessibility and user-centered design. Currently, I'm developing a web-based interface for <span class="highlight"><a href = "https://kalmansymposium.scholar.bucknell.edu/files/2025/03/2025_Kalman_Research_Booklet.pdf">KALMUS</a></span>, a film color analysis toolkit, to make the research tool more accessible to students and researchers beyond those comfortable with GitHub and Python. My film background has shaped how I approach engineering. I think about storytelling and user experience, not just functionality. I get excited about solving hard problems, but I care just as much about making sure what I build feels good to use.
+                        </p>
+                       
+                        <p>Here are a few technologies I've been working with recently:</p>
+                        <ul class="tech-list">
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                            <li>Java</li>
+                            <li>C++</li>
+                            <li>React</li>
+                            <li>Flask</li>
+                            <li>Spring Boot</li>
+                            <li>TensorFlow</li>
+                        </ul>
+                    </div>
+                    <div class="about-image">
+                        <div class="image-wrapper">
+                            <img src="1705766562715 (2).jpg" alt="Laura Ozoria">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="numbered-heading"><span></span>Experience</h2>
+                    <div class="heading-line"></div>
+                </div>
+
+                <div class="jobs">
+                    <div class="job-tabs">
+                        <button class="job-tab active" data-tab="kalmus">KALMUS</button>
+                        <button class="job-tab" data-tab="dssf">Data Science</button>
+                        <button class="job-tab" data-tab="mentor">Peer Mentor</button>
+                        <button class="job-tab" data-tab="vr">VR Research</button>
+                    </div>
+
+                    <div class="job-panels">
+                        <div class="job-panel active" id="kalmus">
+                            <h3>Software Programmer <span class="company">for Color Analysis Program</span></h3>
+                            <p class="job-date">August 2024 - Present</p>
+                            <ul class="job-list">
+                                <li>Develop a web-based version of KALMUS film analysis software using HTML, Flask, and Bootstrap, expanding accessibility to student researchers</li>
+                                <li>Expand a Python film color analysis toolkit by developing 5+ new features used in the web adaptation of the package</li>
+                                <!-- <li>Improve color analysis accuracy by 10% through integration and tuning of machine learning models</li> -->
+                                <li>Enable real-time film metadata access by designing a SQLite database integrated with the IMDb API</li>
+                            </ul>
+                        </div>
+
+                        <div class="job-panel" id="dssf">
+                            <h3>Data Science Student Fellow <span class="company">@ Bucknell University</span></h3>
+                            <p class="job-date">January 2026 - Present</p>
+                            <ul class="job-list">
+                                <li>Collaborate with stakeholders and data science mentors on semester-long applied data science projects, delivering data-driven insights to support institutional decision-making</li>
+                                <li>Extract and process audio data from video content using Python, Excel, and Premiere Pro to enable quantitative analysis for client stakeholders</li>
+                                <li>Support data science outreach initiatives by promoting student engagement in workshops and seminars across campus</li>
+                            </ul>
+                        </div>
+
+                        <div class="job-panel" id="mentor">
+                            <h3>Engineering Peer Mentor <span class="company">@ Bucknell University</span></h3>
+                            <p class="job-date">August 2024 - Present</p>
+                            <ul class="job-list">
+                                <li>Guided 5 students through resume development and LinkedIn profile optimization to strengthen their professional branding and career preparation</li>
+                                <li>Maintained consistent engagement through weekly meetings throughout the semester, with additional availability for on-demand academic support in physics and computer science</li>
+                            </ul>
+                        </div>
+
+                        <div class="job-panel" id="vr">
+                            <h3>Virtual Reality Research Assistant <span class="company">@ Bucknell University</span></h3>
+                            <p class="job-date">June - July 2023</p>
+                            <ul class="job-list">
+                                <li>Designed an interactive colorimetry learning program in Unity to teach primary/secondary color theory and color mixing principles through hands-on VR experiences</li>
+                                <li>Created Unity-based VR learning tool for Meta Quest 2 platform, enabling standalone access to interactive color theory education</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="work" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="numbered-heading"><span></span>Projects</h2>
+                    <div class="heading-line"></div>
+                </div>
+
+                <ul class="projects-grid">
+                    <li class="project-card featured">
+                        <div class="project-content">
+                                                    <p class="project-overline"><a href = "https://devpost.com/software/saiga-movie-night-scheduler?ref_content=my-projects-tab&ref_feature=my_projects">Hackathon Post</a></p>
+
+                            <h3 class="project-title">Movie Scheduler</h3>
+                            <div class="project-description">
+                                <p>A web application built during a hackathon that helps groups find the perfect time to watch movies together. 
+                                Features Google Calendar integration for real-time availability matching and automated scheduling.</p>
+                            </div>
+                            <ul class="project-tech-list">
+                                <li>Java</li>
+                                <li>Spring Boot</li>
+                                <li>JavaScript</li>
+                                <li>Google Calendar API</li>
+                                <!-- <li>Figma</li> -->
+                            </ul>
+                        </div>
+                        <div class="project-image">
+                            <img src="original (1).png" alt="Movie Night Scheduler ">
+                        </div>
+                    </li>
+
+                    <li class="project-card featured">
+                        <div class="project-content">
+                            <p class="project-overline"><a href = "https://mediaspace.bucknell.edu/media/Dewdrop+Canyon+-+CSCI2025+Final+Project+Team07+Presentation+/1_09s6i0ps">Project Presentation</a></p>
+                            <h3 class="project-title">Stardew Valley Simulation</h3>
+                            <div class="project-description">
+                                <p>A 2D farming simulation game built with object-oriented design principles and Agile methodology. 
+                                Features multiple gameplay mechanics including farming, inventory management, and resource collection.</p>
+                            </div>
+                            <ul class="project-tech-list">
+                                <li>Java</li>
+                                <li>JavaFX</li>
+                                <li>JUnit</li>
+                                <li>UML</li>
+                            </ul>
+                        </div>
+                        <div class="project-image">
+                            <img src="Screenshot 2026-03-02 211720.png" alt="Stardew Valley Simulation">
+                        </div>
+                    </li>
+
+                    <li class="project-card featured">
+                        <div class="project-content">
+                            <h3 class="project-title">Animal Identifier</h3>
+                            <div class="project-description">
+                                <p>A convolutional neural network trained to classify animal species with 80% accuracy. 
+                                Includes comprehensive performance analysis using confusion matrices and accuracy metrics.</p>
+                            </div>
+                            <ul class="project-tech-list">
+                                <li>Python</li>
+                                <li>TensorFlow</li>
+                                <li>CNN</li>
+                                <li>Machine Learning</li>
+                            </ul>
+                        </div>
+                        <div class="project-image">
+                            <img src="11042_2022_12852_Fig17_HTML.png" alt="Animal Species Identifier">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <!-- <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="numbered-heading"><span>04.</span> What's Next?</h2>
+                </div>
+
+                <div class="contact-content">
+                    <h2 class="contact-title">Get In Touch</h2>
+                    <p class="contact-description">
+                        I'm currently looking for Summer 2026 software engineering internships. Whether you have 
+                        an opportunity or just want to say hi, feel free to reach out - I'll do my best to get back to you!
+                    </p>
+                    <a href="mailto:your.email@bucknell.edu" class="contact-button">Say Hello</a>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <a href="https://github.com/bchiang7/v4" target="_blank" rel="noopener noreferrer">
+                    <p>Adapted from Brittany Chiang</p>
+                </a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
